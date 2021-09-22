@@ -1,4 +1,4 @@
-# estructura
+# Estructura
 
 ```html
 <!DOCTYPE html>
@@ -11,13 +11,13 @@
 </html>
 ```
 
-`<!DOCTYPE html>` para que el navegador interprete el codigo como html5.
-`<html>` etiqueta raiz de todo elemento html.
-`<head>` aqui se agregan caracteristicas que no neceseriamente va a ser visibles para el usuario.
-`<title>` indica cual sera el titulo de la pagina web.
+`<!DOCTYPE html>` para que el navegador interprete el codigo como html5.\
+`<html>` etiqueta raiz de todo elemento html.\
+`<head>` aqui se agregan caracteristicas que no neceseriamente va a ser visibles para el usuario.\
+`<title>` indica cual sera el titulo de la pagina web.\
 `<body>` aqui se encontrara el contenido de la pagina web.
 
-# etiquetas
+# Etiquetas
 
 ```html
 <body>
@@ -37,20 +37,20 @@
 </body>
 ```
 
-`<h1></h1>`-`<h6></h6>` titulos.
-`<p></p>` parrafos.
-`<hr>` separacion.
-`<!-- -->` comentarios.
+`<h1></h1>`-`<h6></h6>` titulos.\
+`<p></p>` parrafos.\
+`<hr>` separacion.\
+`<!-- -->` comentarios.\
 `<span></span>` para identificar un texto o una etiqueta dentro de otra y asi
-poder referenciarlas o agregarles estilo
-`<br>` salto de linea.
-`<a href="https://www.google.com"></a>` link.
-`<a target="_blank" href="https://www.google.com">Ir a google</a>` abre el link en otra pestanna.
-`<img src="https://www.rutaalaimagen.com/img.png" />` agregar una imagen desde la web.
-`<img src="coffe.png" />` agregra una imagen local.
-`<img src="img/coffe.png" width="400" height="600" />` modifica dimensiones
+poder referenciarlas o agregarles estilo.\
+`<br>` salto de linea.\
+`<a href="https://www.google.com"></a>` link.\
+`<a target="_blank" href="https://www.google.com">Ir a google</a>` abre el link en otra pestaña.\
+`<img src="https://www.rutaalaimagen.com/img.png" />` agregar una imagen desde la web.\
+`<img src="coffe.png" />` agregra una imagen local.\
+`<img src="img/coffe.png" width="400" height="600" />` modifica dimensiones.
 
-# formularios
+# Formularios
 
 ```html
 <body>
@@ -64,36 +64,36 @@ poder referenciarlas o agregarles estilo
 </body>
 ```
 
-`<form action="/formulario" method="POST">` formulario.
-`action="/formulario"` ruta a la que se envian los datos.
+`<form action="/formulario" method="POST">` formulario.\
+`action="/formulario"` ruta a la que se envian los datos.\
 `method="GET"`
-`method="POST"` metodo con el que se envian los datos.
-GET envia los datos en la url.
-POST no envia los datos en la url.
-(POST no es mas seguro)
-(lo seguro seria utilizar certificados que se encarguen de encriptar todas nuestras conexiones)
-`<label for="nombre">Nombre</label>` etiqueta.
+`method="POST"` metodo con el que se envian los datos.\
+GET envia los datos en la url.\
+POST no envia los datos en la url.\
+(POST no es mas seguro)\
+(lo seguro seria utilizar certificados que se encarguen de encriptar todas nuestras conexiones)\
+`<label for="nombre">Nombre</label>` etiqueta.\
 `for="nombre"` para identificar a que input pertenece y que al hacer click se
-habilite el mismo.
-`<input value="makz" type="text" id="nombre" name="nombre" placeholder="Nombre" />` campo de texto.
-`value="makz"` valor por defecto de un input text.
-`id="nombre"` identificador del campo de texto.
-`name="nombre"` key: nombre value: texto en el input
-`placeholder="Nombre"` para indicar al usuario que va en el campo de texto.
-`type="text"` para indicarle al navegador el comportamiento del input.
-`type="text"` texto.
-`type="submit"` boton.
-`type="email"` email.
-`type="password"` contrasenna.
-`type="radio"` radio.
-`type="checkbox"` checkbox.
-`type="file"` archivos.
-`<textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario""></textarea>`
-`rows="10"` indica la cantidad de filas del textarea.
-`cols="50"` indica la cantidad de columnas del textarea.
+habilite el mismo.\
+`<input value="makz" type="text" id="nombre" name="nombre" placeholder="Nombre" />` campo de texto.\
+`value="makz"` valor por defecto de un input text.\
+`id="nombre"` identificador del campo de texto.\
+`name="nombre"` key: nombre value: texto en el input\
+`placeholder="Nombre"` para indicar al usuario que va en el campo de texto.\
+`type="text"` para indicarle al navegador el comportamiento del input.\
+`type="text"` texto.\
+`type="submit"` boton.\
+`type="email"` email.\
+`type="password"` contrasenna.\
+`type="radio"` radio.\
+`type="checkbox"` checkbox.\
+`type="file"` archivos.\
+`<textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario""></textarea>`\
+`rows="10"` indica la cantidad de filas del textarea.\
+`cols="50"` indica la cantidad de columnas del textarea.\
 `<input type="submit" />` en cuando se presione tomara todos los valores y los enviara al servidor.
 
-# botones
+# Botones
 
 ```html
 <body>
@@ -101,12 +101,12 @@ habilite el mismo.
 </body>
 ```
 
-`<button type="button"></button>` boton se configura su comportamiento con js.
-`<button type="reset"></button>` al presionarlo se resetean los valores del form.
-`<button type="submit"></button>` envia el formulario.
+`<button type="button"></button>` boton se configura su comportamiento con js.\
+`<button type="reset"></button>` al presionarlo se resetean los valores del form.\
+`<button type="submit"></button>` envia el formulario.\
 (los botones pueden contener otras etiquetas)
 
-# listas
+# Listas
 
 ```html
 <body>
@@ -143,12 +143,12 @@ habilite el mismo.
 </body>
 ```
 
-`<ul></ul>` lista no ordenada.
-`<li></li>` item de la lista.
-`<ul></ul>` lista ordenada.
+`<ul></ul>` lista no ordenada.\
+`<li></li>` item de la lista.\
+`<ul></ul>` lista ordenada.\
 `<ol value="50">` para que empiece a contar desde 50.
 
-# tablas
+# Tablas
 
 ```html
 <body>
@@ -181,15 +181,15 @@ habilite el mismo.
 </body>
 ```
 
-`<table></table>` tabla.
-`<tr></tr>` fila.
-`<th></th>` header.
-`<td></td>` data.
-`<thead></thead>` para agrupar headers.
-`<tbody></tbody>` para agrupar filas que no contengan headers.
+`<table></table>` tabla.\
+`<tr></tr>` fila.\
+`<th></th>` header.\
+`<td></td>` data.\
+`<thead></thead>` para agrupar headers.\
+`<tbody></tbody>` para agrupar filas que no contengan headers.\
 `<tfoot></tfoot>` para el footer.
 
-# mas etiquetas
+# Mas etiquetas
 
 ```html
 <body>
@@ -215,7 +215,7 @@ habilite el mismo.
          <article>
              <h2>Titulo de mi post 2</h2>
              <p>Descripcion de mi post 2</p>
-             <img src="img/monster.png" width="400" />                                             p
+             <img src="img/monster.png" width="400" />
              <p>Texto del articulo que hay aca y es texto de prueba
              chanchito feliz</p>
          </article>
@@ -239,7 +239,7 @@ habilite el mismo.
 `href="mailto:micorreo@gmail.com"></a>` abre el cliente de correo en la seccion
 de redactar correo con el correo de destino listo.
 
-# divs
+# Divs
 
 ```html
 <body>
@@ -252,7 +252,7 @@ de redactar correo con el correo de destino listo.
 `<div></div>` cumple la misma funcion de section. se usa para dividir el contenido
 y para agrupar secciones.
 
-# atributos id y class
+# Atributos id y class
 
 identificador unico o generico para interactuar con las etiquetas mediante js o
 para asignarle un estilo de css.
@@ -262,10 +262,10 @@ para asignarle un estilo de css.
     <article class="post"></article>
 ```
 
-`id="titulo"` identificador unico.
+`id="titulo"` identificador unico.\
 `class="post"` identificador generico.
 
-# links ++
+# Links ++
 
 ```html
 <body>
