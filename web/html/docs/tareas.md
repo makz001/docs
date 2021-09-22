@@ -1,0 +1,2 @@
+- [ ] buscar mas info para complementar.
+- [x] pasar lo visto en el ejemplo del blog a los docs.
